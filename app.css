@@ -60,3 +60,34 @@ p {}
   padding: 0;
   margin: 0;
 }
+
+@media all and (max-width: 850px) {
+  .palette__section {
+    width: 100%;
+  }
+  .palette__hex {
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    position: relative;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .palette__section {
+    width: 100%;
+  }
+  .palette__hex {
+    width: auto;
+    height: auto;
+    margin: 0;
+    position: relative;
+  }
+}
+
+
+
+
+
+
+
