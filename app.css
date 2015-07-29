@@ -17,11 +17,6 @@ body {
   padding: 15px;
   background-color: #f5f5f5;
 }
-h1 {}
-h2 {}
-h3 {}
-p {}
-.palettes__group {}
 .palette__section {
   width: 100%;
   display: inline-block;
