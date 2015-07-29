@@ -45,7 +45,11 @@
       palettesGroup.appendChild(paletteDiv);
 
       var p = new Palette();
-      hexKeys = [ 'dominant', 'contrastingDominant', 'subDominant', 'contrastingSubDominant', 'pop'];
+      hexKeys = [ 'dominant', 
+                  'contrastingDominant', 
+                  'subDominant', 
+                  'contrastingSubDominant', 
+                  'pop' ];
       var i = 0;
       for(; i < hexKeys.length; i++) {
         p = palette.hex[hexKeys[i]];
